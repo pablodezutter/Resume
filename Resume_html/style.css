@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+container {
+  max-width: 960px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400px;
+  line-height: 1.8em;
+  color: #666;
+  background-color: rgba(255, 255, 255, 0);
+}
+h1,
+h2,
+h3 {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+h1 {
+  font-size: 100px;
+}
+
+.underlayer {
+  background: url(BeCodeZW-9845.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px;
+}
+.story {
+  margin: 20px;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.6;
+}
+.ginger {
+  color: #b06500;
+}
+.camomile {
+  background-color: #e2ea4f;
+  padding: 5px;
+}
