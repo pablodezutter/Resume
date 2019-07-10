@@ -73,6 +73,7 @@ p.story {
 .js,
 .php,
 .github {
+  border-width: 2px;
 }
 
 .html {
@@ -106,10 +107,17 @@ a {
   color: #665;
 }
 
-a: link {
+a:link {
   color: #b06500;
 }
 
-a: visited {
+a:visited {
   color: #666;
+}
+
+#linkedin {
+  margin: 50px;
+}
+#github {
+  margin: 50px;
 }
