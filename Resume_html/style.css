@@ -10,7 +10,7 @@ html {
 container {
   max-width: 960px;
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400px;
   line-height: 1.8em;
   color: #666;
@@ -39,18 +39,69 @@ h1 {
 p.story {
   text-align: center;
 }
-p,
-td {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  line-height: 1.6;
-  margin-left: 100px;
-  margin-right: 100px;
-}
+
 .ginger {
   color: #b06500;
 }
 .camomile {
   background-color: #e2ea4f;
   padding: 5px;
+}
+
+.talent {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.showSkills {
+  width: 100%;
+  background-color: white;
+}
+
+.skills {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.html,
+.css,
+.js,
+.php,
+.github {
+}
+
+.html {
+  width: 90%;
+  background-color: #b06500;
+  height: 2px;
+}
+.css {
+  width: 80%;
+  background-color: #b06500;
+}
+.js {
+  width: 65%;
+  background-color: #b06500;
+}
+.php {
+  width: 30%;
+  background-color: #b06500;
+}
+.github {
+  width: 60%;
+  background-color: #b06500;
+}
+
+.contact {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+a: link {
+  color: #b06500;
+}
+
+a: visited {
+  color: #666;
 }
