@@ -58,6 +58,10 @@ p.story {
   background-color: white;
 }
 
+.showSkills p {
+  text-align: left;
+}
+
 .skills {
   text-align: left;
   padding-top: 10px;
@@ -96,6 +100,10 @@ p.story {
 .contact {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+}
+
+a {
+  color: #665;
 }
 
 a: link {
