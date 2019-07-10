@@ -24,22 +24,28 @@ h3 {
 }
 h1 {
   font-size: 100px;
+  margin-bottom: 0px;
 }
 
 .underlayer {
   background: url(BeCodeZW-9845.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 650px;
+  height: 500px;
 }
 .story {
-  margin: 20px;
+  text-align: center;
 }
-p {
+p.story {
+  text-align: center;
+}
+p,
+td {
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  justify-content: center;
   line-height: 1.6;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .ginger {
   color: #b06500;
