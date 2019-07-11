@@ -16,3 +16,4 @@ s\ o o \\s \
 
 - width of current text?
 - don't get the parallax picture to move to the top, standard margin is given
+ https://pablodezutter.github.io/Resume/.
