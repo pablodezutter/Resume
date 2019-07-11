@@ -1,0 +1,123 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+container {
+  max-width: 960px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+  line-height: 1.8em;
+  color: #666;
+  background-color: rgba(255, 255, 255, 0);
+}
+h1,
+h2,
+h3 {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+h1 {
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+
+.underlayer {
+  background: url(BeCodeZW-9845.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+.story {
+  text-align: center;
+}
+p.story {
+  text-align: center;
+}
+
+.ginger {
+  color: #b06500;
+}
+.camomile {
+  background-color: #e2ea4f;
+  padding: 5px;
+}
+
+.talent {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.showSkills {
+  width: 100%;
+  background-color: white;
+}
+
+.showSkills p {
+  text-align: left;
+}
+
+.skills {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.html,
+.css,
+.js,
+.php,
+.github {
+  border-width: 2px;
+}
+
+.html {
+  width: 90%;
+  background-color: #b06500;
+  height: 2px;
+}
+.css {
+  width: 80%;
+  background-color: #b06500;
+}
+.js {
+  width: 65%;
+  background-color: #b06500;
+}
+.php {
+  width: 30%;
+  background-color: #b06500;
+}
+.github {
+  width: 60%;
+  background-color: #b06500;
+}
+
+.contact {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #665;
+}
+
+a:link {
+  color: #b06500;
+}
+
+a:visited {
+  color: #666;
+}
+
+#linkedin {
+  margin: 50px;
+}
+#github {
+  margin: 50px;
+}
