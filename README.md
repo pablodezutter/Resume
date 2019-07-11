@@ -16,3 +16,6 @@ s\ o o \\s \
 
 - width of current text?
 - don't get the parallax picture to move to the top, standard margin is given
+
+! Years after, I see the struggle between different browsers is still there. Fonts are totally different in other browsers...
+Should fix this.
