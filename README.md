@@ -21,3 +21,9 @@ s\ o o \\s \
 Should fix this.
 
 https://pablodezutter.github.io/Resume/.
+
+#11th of July
+
+## Destroy HTML by Thijs
+
+- build back up HTML with html 5
