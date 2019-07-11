@@ -19,4 +19,5 @@ s\ o o \\s \
 
 ! Years after, I see the struggle between different browsers is still there. Fonts are totally different in other browsers...
 Should fix this.
+
 https://pablodezutter.github.io/Resume/.
