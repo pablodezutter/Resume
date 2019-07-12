@@ -20,10 +20,12 @@ s\ o o \\s \
 ! Years after, I see the struggle between different browsers is still there. Fonts are totally different in other browsers...
 Should fix this.
 
-https://pablodezutter.github.io/Resume/.
-
 #11th of July
 
 ## Destroy HTML by Thijs
 
 - build back up HTML with html 5
+
+#12th of July
+
+-further build up HTML with html 5
