@@ -33,6 +33,13 @@ h1 {
   background-attachment: fixed;
   height: 500px;
 }
+.section,
+.header,
+.footer {
+  padding-left: 40px;
+  padding-right: 50px;
+}
+
 .story {
   text-align: center;
 }
@@ -147,8 +154,8 @@ a:visited {
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
+  height: 300px;
+  border: 1px solid rgba(102, 102, 85, 0.356);
   perspective: 1000px;
 }
 
@@ -174,12 +181,12 @@ a:visited {
 }
 
 .flip-card-front {
-  background-color: #b06500;
+  background-color: rgba(102, 102, 85, 0.438);
   color: black;
 }
 
 .flip-card-back {
-  background-color: #e2ea4f;
+  background-color: #665;
   color: rgb(17, 17, 17);
   transform: rotateY(180deg);
 }
