@@ -3,42 +3,47 @@ html {
   height: 100%;
   margin: 0;
 }
+
 .container {
   margin: 40px;
 }
 
-.parallax,
-.parallax1,
-.parallax2 {
+.parallax1 {
   background-position: 70% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
-.parallax {
+.parallax1 {
   background-image: url("../images/BeCodeZW-9845.jpg");
-  min-height: 100%;
-  background-size: cover;
+  min-height: 500px;
+
 }
 
 .parallax2 {
-  background-image: url("../images/BeCodeZW-9849.jpg");
-  min-height: 400px;
+  background-image: url("../images/tree2.jpg");
+  min-height: 300px;
   background-size: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
-/* .parallax3 {
-  background-image: url("../images/BeCode-9845.jpg");
-  min-height: 400px;
-  width: 100%;
+.parallax3 {
+  background-image: url("../images/BeCodeZW-9849.jpg");
+  min-height: 500px;
   background-size: cover;
-} */
+  background-position: 10% 40%;
+}
 
 h1,
 .subtitle {
   text-align: right;
+  padding-right: 80px;
+  padding-top: 50px;
 
-  padding: 30px;
+
 }
 
 header,
@@ -51,6 +56,17 @@ footer {
   margin-top: 50px;
 }
 
+section {
+  text-align: center;
+  padding: 40px 70px;
+
+
+}
+
+.story {
+  text-align: center;
+}
+
 .aboutme,
 .talent,
 .info {
@@ -61,12 +77,13 @@ footer {
 .ginger {
   color: #b06500;
 }
+
 .camomile {
   border-color: #e2ea4f;
   border-bottom-style: solid;
 }
 
-.showSkills {
+/* .showSkills {
   width: 100%;
   background-color: rgba(253, 249, 249, 0.424);
   width: 400px;
@@ -82,11 +99,18 @@ footer {
   padding-bottom: 10px;
 }
 
+.Skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .html,
 .css,
 .js,
 .php,
-.github {
+.github,
+.Communication {
   border-width: 2px;
 }
 
@@ -94,33 +118,37 @@ footer {
   width: 80%;
   background-color: #b06500;
 }
+
 .css {
   width: 70%;
   background-color: #b06500;
 }
+
 .js {
   width: 65%;
   background-color: #b06500;
 }
+
 .php {
   width: 30%;
   background-color: #b06500;
 }
+
 .github {
   width: 60%;
   background-color: #b06500;
 }
 
-.Skills {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+
+
+.Communication {
+  width: 80%;
+  background-color: #b06500;
 }
+ */
+
+
 .contact {
   font-family: "Montserrat", sans-serif;
   text-align: center;
-}
-
-.communication {
-  width: 80%;
 }
