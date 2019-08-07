@@ -2,6 +2,7 @@ body,
 html {
   height: 100%;
   margin: 0;
+  color: rgba(63, 62, 62, 0.993)
 }
 
 .container {
@@ -9,24 +10,24 @@ html {
 }
 
 .parallax1 {
+  background-image: url("../images/BeCodeZW-9845.jpg");
   background-position: 70% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
-
-.parallax1 {
-  background-image: url("../images/BeCodeZW-9845.jpg");
-  min-height: 500px;
+  min-height: 700px;
 
 }
+
+
 
 .parallax2 {
   background-image: url("../images/tree2.jpg");
-  min-height: 300px;
+  min-height: 500px;
   background-size: 70%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 
 }
 
@@ -35,6 +36,7 @@ html {
   min-height: 500px;
   background-size: cover;
   background-position: 10% 40%;
+  background-attachment: fixed;
 }
 
 h1,
@@ -59,9 +61,20 @@ footer {
 section {
   text-align: center;
   padding: 40px 70px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  background-color: rgba(197, 191, 191, 0.068);
+  padding-bottom: 10px;
 
 
 }
+
+#read_more {
+
+  display: none;
+}
+
+
 
 .story {
   text-align: center;
@@ -83,70 +96,19 @@ section {
   border-bottom-style: solid;
 }
 
-/* .showSkills {
-  width: 100%;
-  background-color: rgba(253, 249, 249, 0.424);
-  width: 400px;
-}
 
-.showSkills p {
-  text-align: left;
-}
-
-.skills {
-  text-align: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.Skills {
+/* .skills {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
-.html,
-.css,
-.js,
-.php,
-.github,
-.Communication {
-  border-width: 2px;
+.hardskills {
+  flex-direction: column;
+  justify-content:
 }
 
-.html {
-  width: 80%;
-  background-color: #b06500;
-}
-
-.css {
-  width: 70%;
-  background-color: #b06500;
-}
-
-.js {
-  width: 65%;
-  background-color: #b06500;
-}
-
-.php {
-  width: 30%;
-  background-color: #b06500;
-}
-
-.github {
-  width: 60%;
-  background-color: #b06500;
-}
-
-
-
-.Communication {
-  width: 80%;
-  background-color: #b06500;
-}
- */
-
+.softskills {
+  flex-direction: column;
+} */
 
 .contact {
   font-family: "Montserrat", sans-serif;
