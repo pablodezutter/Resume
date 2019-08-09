@@ -100,16 +100,22 @@ section {
 
 .skills {
   display: flex;
+  justify-content: center;
 }
 
-.hardskills {
-  flex-direction: column;
-  justify-content:
+#lone_Par {
+
+  text-align: center;
 }
 
-.softskills {
+
+/* .hardskills .softskills {
   flex-direction: column;
-}
+  justify-content: space-between;
+
+
+} */
+
 
 .contact {
   font-family: "Montserrat", sans-serif;
