@@ -109,12 +109,17 @@ section {
 }
 
 
-/* .hardskills .softskills {
-  flex-direction: column;
-  justify-content: space-between;
+.transition {
+  width: 100px;
+  height: 50px;
+  background: rgba(63, 62, 62, 0.993);
+  transition: width, 3s;
+}
 
+.transition:hover {
+  width: 500px;
 
-} */
+}
 
 
 .contact {
