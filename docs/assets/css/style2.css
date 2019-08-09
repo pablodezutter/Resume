@@ -97,7 +97,8 @@ section {
 }
 
 
-/* .skills {
+
+.skills {
   display: flex;
 }
 
@@ -108,7 +109,7 @@ section {
 
 .softskills {
   flex-direction: column;
-} */
+}
 
 .contact {
   font-family: "Montserrat", sans-serif;
