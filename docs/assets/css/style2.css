@@ -103,9 +103,8 @@ section {
   justify-content: center;
 }
 
-#lone_Par {
-
-  text-align: center;
+#title_skills {
+  flex-flow:
 }
 
 
@@ -119,6 +118,7 @@ section {
 
 .transition:hover {
   width: 500px;
+  height: 500px;
 
 }
 
